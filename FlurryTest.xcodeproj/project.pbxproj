@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAD67E151AF72D2E00616BF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD67E141AF72D2E00616BF6 /* AppDelegate.swift */; };
+		DAD67E171AF72D2E00616BF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD67E161AF72D2E00616BF6 /* ViewController.swift */; };
+		DAD67E1A1AF72D2E00616BF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD67E181AF72D2E00616BF6 /* Main.storyboard */; };
+		DAD67E1C1AF72D2E00616BF6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD67E1B1AF72D2E00616BF6 /* Images.xcassets */; };
+		DAD67E1F1AF72D2E00616BF6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAD67E1D1AF72D2E00616BF6 /* LaunchScreen.xib */; };
+		DAD67E2B1AF72D2E00616BF6 /* FlurryTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD67E2A1AF72D2E00616BF6 /* FlurryTestTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAD67E251AF72D2E00616BF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAD67E071AF72D2E00616BF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAD67E0E1AF72D2E00616BF6;
+			remoteInfo = FlurryTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAD67E0F1AF72D2E00616BF6 /* FlurryTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlurryTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD67E131AF72D2E00616BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD67E141AF72D2E00616BF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAD67E161AF72D2E00616BF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAD67E191AF72D2E00616BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAD67E1B1AF72D2E00616BF6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DAD67E1E1AF72D2E00616BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DAD67E241AF72D2E00616BF6 /* FlurryTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlurryTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD67E291AF72D2E00616BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD67E2A1AF72D2E00616BF6 /* FlurryTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlurryTestTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAD67E0C1AF72D2E00616BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD67E211AF72D2E00616BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAD67E061AF72D2E00616BF6 = {
+			isa = PBXGroup;
+			children = (
+				DAD67E111AF72D2E00616BF6 /* FlurryTest */,
+				DAD67E271AF72D2E00616BF6 /* FlurryTestTests */,
+				DAD67E101AF72D2E00616BF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAD67E101AF72D2E00616BF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAD67E0F1AF72D2E00616BF6 /* FlurryTest.app */,
+				DAD67E241AF72D2E00616BF6 /* FlurryTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAD67E111AF72D2E00616BF6 /* FlurryTest */ = {
+			isa = PBXGroup;
+			children = (
+				DAD67E141AF72D2E00616BF6 /* AppDelegate.swift */,
+				DAD67E161AF72D2E00616BF6 /* ViewController.swift */,
+				DAD67E181AF72D2E00616BF6 /* Main.storyboard */,
+				DAD67E1B1AF72D2E00616BF6 /* Images.xcassets */,
+				DAD67E1D1AF72D2E00616BF6 /* LaunchScreen.xib */,
+				DAD67E121AF72D2E00616BF6 /* Supporting Files */,
+			);
+			path = FlurryTest;
+			sourceTree = "<group>";
+		};
+		DAD67E121AF72D2E00616BF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAD67E131AF72D2E00616BF6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAD67E271AF72D2E00616BF6 /* FlurryTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAD67E2A1AF72D2E00616BF6 /* FlurryTestTests.swift */,
+				DAD67E281AF72D2E00616BF6 /* Supporting Files */,
+			);
+			path = FlurryTestTests;
+			sourceTree = "<group>";
+		};
+		DAD67E281AF72D2E00616BF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAD67E291AF72D2E00616BF6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAD67E0E1AF72D2E00616BF6 /* FlurryTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD67E2E1AF72D2E00616BF6 /* Build configuration list for PBXNativeTarget "FlurryTest" */;
+			buildPhases = (
+				DAD67E0B1AF72D2E00616BF6 /* Sources */,
+				DAD67E0C1AF72D2E00616BF6 /* Frameworks */,
+				DAD67E0D1AF72D2E00616BF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlurryTest;
+			productName = FlurryTest;
+			productReference = DAD67E0F1AF72D2E00616BF6 /* FlurryTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAD67E231AF72D2E00616BF6 /* FlurryTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD67E311AF72D2E00616BF6 /* Build configuration list for PBXNativeTarget "FlurryTestTests" */;
+			buildPhases = (
+				DAD67E201AF72D2E00616BF6 /* Sources */,
+				DAD67E211AF72D2E00616BF6 /* Frameworks */,
+				DAD67E221AF72D2E00616BF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAD67E261AF72D2E00616BF6 /* PBXTargetDependency */,
+			);
+			name = FlurryTestTests;
+			productName = FlurryTestTests;
+			productReference = DAD67E241AF72D2E00616BF6 /* FlurryTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAD67E071AF72D2E00616BF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Fun Anima Co., Ltd.";
+				TargetAttributes = {
+					DAD67E0E1AF72D2E00616BF6 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					DAD67E231AF72D2E00616BF6 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = DAD67E0E1AF72D2E00616BF6;
+					};
+				};
+			};
+			buildConfigurationList = DAD67E0A1AF72D2E00616BF6 /* Build configuration list for PBXProject "FlurryTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAD67E061AF72D2E00616BF6;
+			productRefGroup = DAD67E101AF72D2E00616BF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAD67E0E1AF72D2E00616BF6 /* FlurryTest */,
+				DAD67E231AF72D2E00616BF6 /* FlurryTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAD67E0D1AF72D2E00616BF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD67E1A1AF72D2E00616BF6 /* Main.storyboard in Resources */,
+				DAD67E1F1AF72D2E00616BF6 /* LaunchScreen.xib in Resources */,
+				DAD67E1C1AF72D2E00616BF6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD67E221AF72D2E00616BF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAD67E0B1AF72D2E00616BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD67E171AF72D2E00616BF6 /* ViewController.swift in Sources */,
+				DAD67E151AF72D2E00616BF6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD67E201AF72D2E00616BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD67E2B1AF72D2E00616BF6 /* FlurryTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAD67E261AF72D2E00616BF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAD67E0E1AF72D2E00616BF6 /* FlurryTest */;
+			targetProxy = DAD67E251AF72D2E00616BF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAD67E181AF72D2E00616BF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD67E191AF72D2E00616BF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAD67E1D1AF72D2E00616BF6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD67E1E1AF72D2E00616BF6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAD67E2C1AF72D2E00616BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAD67E2D1AF72D2E00616BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAD67E2F1AF72D2E00616BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlurryTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAD67E301AF72D2E00616BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlurryTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAD67E321AF72D2E00616BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlurryTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlurryTest.app/FlurryTest";
+			};
+			name = Debug;
+		};
+		DAD67E331AF72D2E00616BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlurryTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlurryTest.app/FlurryTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAD67E0A1AF72D2E00616BF6 /* Build configuration list for PBXProject "FlurryTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD67E2C1AF72D2E00616BF6 /* Debug */,
+				DAD67E2D1AF72D2E00616BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD67E2E1AF72D2E00616BF6 /* Build configuration list for PBXNativeTarget "FlurryTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD67E2F1AF72D2E00616BF6 /* Debug */,
+				DAD67E301AF72D2E00616BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAD67E311AF72D2E00616BF6 /* Build configuration list for PBXNativeTarget "FlurryTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD67E321AF72D2E00616BF6 /* Debug */,
+				DAD67E331AF72D2E00616BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAD67E071AF72D2E00616BF6 /* Project object */;
+}
