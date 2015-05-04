@@ -13,6 +13,8 @@
 		DAD67E1C1AF72D2E00616BF6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD67E1B1AF72D2E00616BF6 /* Images.xcassets */; };
 		DAD67E1F1AF72D2E00616BF6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAD67E1D1AF72D2E00616BF6 /* LaunchScreen.xib */; };
 		DAD67E2B1AF72D2E00616BF6 /* FlurryTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD67E2A1AF72D2E00616BF6 /* FlurryTestTests.swift */; };
+		DAD67E391AF732A700616BF6 /* libFlurry_6.3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD67E381AF732A700616BF6 /* libFlurry_6.3.0.a */; };
+		DAD67E3B1AF73F9E00616BF6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD67E3A1AF73F9E00616BF6 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,10 @@
 		DAD67E241AF72D2E00616BF6 /* FlurryTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlurryTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAD67E291AF72D2E00616BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAD67E2A1AF72D2E00616BF6 /* FlurryTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlurryTestTests.swift; sourceTree = "<group>"; };
+		DAD67E341AF7329200616BF6 /* FlurryTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlurryTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		DAD67E371AF732A700616BF6 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		DAD67E381AF732A700616BF6 /* libFlurry_6.3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_6.3.0.a; sourceTree = "<group>"; };
+		DAD67E3A1AF73F9E00616BF6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAD67E3B1AF73F9E00616BF6 /* SystemConfiguration.framework in Frameworks */,
+				DAD67E391AF732A700616BF6 /* libFlurry_6.3.0.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +67,9 @@
 		DAD67E061AF72D2E00616BF6 = {
 			isa = PBXGroup;
 			children = (
+				DAD67E3A1AF73F9E00616BF6 /* SystemConfiguration.framework */,
+				DAD67E371AF732A700616BF6 /* Flurry.h */,
+				DAD67E381AF732A700616BF6 /* libFlurry_6.3.0.a */,
 				DAD67E111AF72D2E00616BF6 /* FlurryTest */,
 				DAD67E271AF72D2E00616BF6 /* FlurryTestTests */,
 				DAD67E101AF72D2E00616BF6 /* Products */,
@@ -83,6 +94,7 @@
 				DAD67E1B1AF72D2E00616BF6 /* Images.xcassets */,
 				DAD67E1D1AF72D2E00616BF6 /* LaunchScreen.xib */,
 				DAD67E121AF72D2E00616BF6 /* Supporting Files */,
+				DAD67E341AF7329200616BF6 /* FlurryTest-Bridging-Header.h */,
 			);
 			path = FlurryTest;
 			sourceTree = "<group>";
@@ -336,9 +348,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = FlurryTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FlurryTest/FlurryTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,9 +365,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = FlurryTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FlurryTest/FlurryTest-Bridging-Header.h";
 			};
 			name = Release;
 		};

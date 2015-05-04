@@ -21,5 +21,20 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func onTappedLogError(sender: AnyObject) {
+        
+        var err = NSError(domain: "tdomain", code: 987, userInfo: ["name":"vikn"])
+        
+        Flurry.logError("1288", message: "故意製造錯誤", error: err)
+    }
+    
+    
+    @IBAction func onTappedCrash(sender: AnyObject) {
+        var dd = ["nam":"vin"]
+        var aa = dd["BBB"]!
+        
+        println(aa)
+    }
+    
 }
 
